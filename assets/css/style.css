@@ -12,25 +12,58 @@ body {
     font-family: Copperplate, Garamond, serif;
 }
 
+
+/* Start of Header */
+header {
+    padding: 25px 40px;
+    background-color: var(--color1);
+    color: var(--color2);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    text-decoration: none;   
+}
+header h1 {
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--color2);
+    margin: 0; 
+}
+header a {
+    color: var(--color2);
+    text-decoration: none;
+}
+header nav {
+    margin: 10px;
+}
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+header nav ul li a:hover {
+    background: var(--color2);
+    color: var(--color1);
+    border-radius: 10px;
+}
+/* End of Header */
+section {
+    padding: 60px;
+}
 .hero {
     background-image: url(./images/superiorrocks.JPG);
     height: 400px;
     background-size: cover;
-
-}
-
-header {
-    background-color: var(--color1);
-    color: var(--color2);
-    padding: 25px 40px;
-    font-size: larger;
-    display: flex;
-
-    
-}
-header h1 {
-    border: 5px solid var(--color2);
-    padding: 
-}
 
 }
