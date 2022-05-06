@@ -1,0 +1,36 @@
+:root {
+    --color1: #d1d1e0;
+    --color2: #1e3d7b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Copperplate, Garamond, serif;
+}
+
+.hero {
+    background-image: url(./images/superiorrocks.JPG);
+    height: 400px;
+    background-size: cover;
+
+}
+
+header {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 25px 40px;
+    font-size: larger;
+    display: flex;
+
+    
+}
+header h1 {
+    border: 5px solid var(--color2);
+    padding: 
+}
+
+}
