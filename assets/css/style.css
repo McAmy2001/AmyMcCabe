@@ -10,6 +10,7 @@
 }
 body {
     font-family: Copperplate, Garamond, serif;
+    color: var(--color2);
 }
 
 
@@ -61,9 +62,23 @@ header nav ul li a:hover {
 section {
     padding: 60px;
 }
+
+/* Start of Hero */
 .hero {
     background-image: url(./images/superiorrocks.JPG);
-    height: 400px;
+    height: 300px;
     background-size: cover;
-
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+.hero h2 {
+    font-size: 32px;
+    padding: 5px 20px;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+/* End of Hero */
+
