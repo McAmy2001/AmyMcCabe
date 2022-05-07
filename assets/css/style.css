@@ -1,5 +1,5 @@
 :root {
-    --color1: #8696b2;
+    --color1: #d1d1e0;
     --color2: #1e3d7b;
     --color3: #a69293;
 }
@@ -58,6 +58,7 @@ header nav ul {
 header nav ul li a {
     padding: 5px 10px;
     font-size: 1.55vw;
+    margin: 5px;
 }
 header nav ul li a:hover {
     color: var(--color2);
@@ -119,7 +120,7 @@ section {
 
 .about-me-title  {
     width: 30%;
-    border-right: 3px solid #6d534b;;
+    border-right: 3px solid #6d534b;
 }
 
 .about-me-title h3 {
@@ -149,4 +150,42 @@ section {
 }
 .work-list {
     width: 60%
+}
+
+footer {
+    background-color: var(--color1);
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.contact h3 {
+    padding-right: 5px;
+    font-size: 28px;
+    text-align: right;
+    width: 30%;
+    border-right: 3px solid #6d534b;
+}
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.contact ul li a {
+    padding: 5px 10px;
+    font-size: 1.55vw;
+    margin: 5px;
+    text-decoration: none;
+    color: var(--color2)
+}
+.contact nav ul li a:hover {
+    color: var(--color2);
+    border: 3px solid #6d534b;
+    border-radius: 8px;
+    background-color: var(--color3);
 }
