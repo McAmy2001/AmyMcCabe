@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>
-            <a href="/">Amy McCabe</a>
+            <a href="index.html">Amy McCabe</a>
         </h1>
         <nav>
             <ul>
@@ -31,30 +31,37 @@
 
     <!-- Hero --> 
     <section class="hero">
+        <div class="hero-image">
+            <img src="./assets/css/images/portrait Medium.jpeg" alt="Amy McCabe" />
+        </div>
         <h2>Steadiness & Efficiency</h2>
     </section>
 
     <!-- Main section, flexbox with 3 children-->
     <section class="main">
         <!--About Me-->
-        <article id="about-me">
-            <div>
+        <article id="about-me" class="about-me">
+            <div class="about-me-title">
                 <h3>About Me</h3>
-                <img src="./assets/css/images/portrait.jpg" alt="Amy McCabe" />
             </div>
-            <div>
+            <div class="about-me-text">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, at illo animi repudiandae totam assumenda officia cupiditate velit officiis eaque facilis adipisci! Cumque omnis distinctio illo sunt eum adipisci quaerat!
                 </p>
             </div>
         </article>
 
-        <div>
-            <!--Work-->
-            <div>
-                <!--Nested flexbox-->
+        <article id="work" class="work">
+            <div class="work-title">
+                <h3>My Work</h3>
             </div>
-        </div>
+            <div class="work-list">
+                <!--Nested flexbox-->
+                <div>
+
+                </div>
+            </div>
+        </article>
 
         <div>
             <!--Contact me-->
