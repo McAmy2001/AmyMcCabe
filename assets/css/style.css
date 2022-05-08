@@ -225,3 +225,15 @@ footer {
     border-radius: 8px;
     background-color: var(--color3);
 }
+
+@media screen and (max-width: 1196px) {
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .contact ul li a {
+        font-size: 20px;
+    }
+    .work-grid {
+        grid-template-columns: 200px 200px;
+    }
+}
