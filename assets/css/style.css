@@ -71,6 +71,9 @@ header nav ul li a:visited {
     padding: 5px 10px;
     font-size: 1.75vw;
     margin: 10px;
+    color: var(--color2);
+    background-color: var(--color1);
+    border: none;
 }
 /* End of Header */
 section {
@@ -217,13 +220,21 @@ footer {
     font-size: 2.00vw;
     margin: 5px;
     text-decoration: none;
-    color: var(--color2)
+    color: var(--color2);
 }
 .contact nav ul li a:hover {
     color: var(--color2);
     border: 3px solid var(--color4);
     border-radius: 8px;
     background-color: var(--color3);
+}
+.contact nav ul li a:visited {
+    padding: 5px 10px;
+    font-size: 1.75vw;
+    margin: 10px;
+    color: var(--color2);
+    background-color: var(--color1);
+    border: none;
 }
 
 /* Media queries */
