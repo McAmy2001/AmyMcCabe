@@ -67,6 +67,11 @@ header nav ul li a:hover {
     border-radius: 8px;
     background-color: var(--color3);
 }
+header nav ul li a:visited {
+    padding: 5px 10px;
+    font-size: 1.75vw;
+    margin: 10px;
+}
 /* End of Header */
 section {
     
