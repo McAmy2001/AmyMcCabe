@@ -10,7 +10,7 @@
 
 ### The main section with the 'About Me' and 'Work' sections followed and were the spots that required the most "fiddling". I chose a flex box with two children to begin, the 'Work' flexbox then having a nested flexbox for the individual work projects. I was having trouble getting that to layout to work the way I hoped so I then tried a CSS Grid. That seemed the answer to my troubles until I moved on to the next task of making the page respond to different screen sizes. The Grid idea fell apart at this point and I went back to flexbox plan, which, with some tinkering, finally came out the way I wanted.
 
-### My profile page was built using [Git Hub Pages] (https://mcamy2001.github.io/AmyMcCabe/). 
+### My profile page was built using [Git Hub Pages](https://mcamy2001.github.io/AmyMcCabe/). 
 
 ![Screenshot](./assets/css/images/Screen%20Shot%202022-05-11%20at%2010.42.12%20AM%20Small.jpeg)
 
