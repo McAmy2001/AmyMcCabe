@@ -158,14 +158,32 @@ section {
     background-image: linear-gradient(#91b1ce, #a69293);
     text-align: left;
     padding: 20px;
-    font-size: 30;
-    height: 200px;
+    font-size: 30px;
+    height: 250px;
     border: 5px solid var(--color4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .work-items:first-child {
     width: 100%;
     height: 300px;
+}
+.work-items:not(:first-child) {
+    width: 50%;
+    flex-direction: column;
+}
+.work-items .item2 {
+    flex-direction: column;
+}
+
+.img-box img {
+    height: 250px;
+}
+.img-box2 img {
+    height: 70px;
+    width: 95%
 }
 .work-items:not(:first-child) {
     width: 50%;
@@ -180,46 +198,10 @@ section {
     font-size: 20px;
 }
 
-.item1 {
-    background-color: var(--color3);
-    background-image: url(./images/monster.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.item2 {
-    background-color: var(--color2);
-    background-image: url(./images/weathericons.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    
-}
-
-.item3 {
-    background-image: url(./images/schedulerss.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-
-.item4 {
-    background-color: #e6e6ff;
-    background-image: url(./images/quizss.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-
 .item5 {
     background-image: url(./images/image-bg.jpg);
     background-size: cover;
     background-position: 80%;
-}
-
-.color-2 {
-    color: #91b1ce;
 }
 
 #font-2 {
@@ -268,6 +250,7 @@ footer {
 }
 
 /* Media queries */
+
 @media screen and (max-width: 980px) {
     header nav ul li a {
         font-size: 20px;
@@ -289,6 +272,7 @@ footer {
     }
     .work-list {
         margin: none;
+        width: 100%
     }
     .work-list {
         margin: none;
@@ -351,6 +335,12 @@ footer {
     .hero img {
         height: 200px;
         margin-left: 0;
+    }
+    .work-items {
+        flex-direction: column;
+    }
+    .work-items:first-child {
+        height: auto;
     }
     .contact ul {
         flex-direction: column;
