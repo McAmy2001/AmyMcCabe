@@ -181,35 +181,13 @@ section {
 }
 
 .item1 {
-    background-color: var(--color3);
     background-image: url(./images/monster.jpg);
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
 }
 
-.item2 {
-    background-color: var(--color2);
-    background-image: url(./images/weathericons.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    
-}
-
-.item3 {
-    background-image: url(./images/schedulerss.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-
-.item4 {
-    background-color: #e6e6ff;
-    background-image: url(./images/quizss.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
+#item1-title {
+    color: #ffffff;
+    font-size: 32px;
 }
 
 .item5 {
@@ -217,15 +195,9 @@ section {
     background-size: cover;
     background-position: 80%;
 }
-
-.color-2 {
-    color: #91b1ce;
+.work-items span {
+    font-weight: bold;
 }
-
-#font-2 {
-    font-size: 32px;
-}
-
 /* End of main section */
 
 footer {
