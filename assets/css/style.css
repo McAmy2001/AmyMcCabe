@@ -338,6 +338,7 @@ footer {
     }
     .work-items {
         flex-direction: column;
+        height: 300px;
     }
     .work-items:first-child {
         height: auto;
