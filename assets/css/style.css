@@ -4,7 +4,6 @@
     --color3: #a69293;
     --color4: #6d534b;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +13,6 @@ body {
     font-family: Copperplate, Garamond, serif;
     color: var(--color2);
 }
-
-
 /* Start of Header */
 header {
     padding: 25px 40px;
@@ -69,10 +66,8 @@ header nav ul li a:hover {
 
 /* End of Header */
 section {
-    
     background-color: var(--color1);
 }
-
 /* Start of Hero */
 .hero {
     background-image: url(./images/superiorrocks.JPG);
@@ -99,7 +94,6 @@ section {
     margin-bottom: 20px;
 }
 /* End of Hero */
-
 /* Start of Main section */
 .main {
     padding-top: 60px;
@@ -166,7 +160,6 @@ section {
     justify-content: space-around;
     align-items: center;
 }
-
 .work-items:first-child {
     width: 100%;
     height: 300px;
@@ -178,7 +171,6 @@ section {
 .work-items .item2 {
     flex-direction: column;
 }
-
 .img-box img {
     height: 250px;
 }
@@ -189,7 +181,6 @@ section {
 .work-items:not(:first-child) {
     width: 50%;
 }
-
 .work-list a {
     text-decoration: none;
     color: var(--color2);
@@ -198,19 +189,15 @@ section {
 .work-list a span {
     font-size: 20px;
 }
-
 .item5 {
     background-image: url(./images/image-bg.jpg);
     background-size: cover;
     background-position: 80%;
 }
-
 #font-2 {
     font-size: 32px;
 }
-
 /* End of main section */
-
 footer {
     background-color: var(--color1);
 }
@@ -249,9 +236,7 @@ footer {
     border-radius: 8px;
     background-color: var(--color3);
 }
-
 /* Media queries */
-
 @media screen and (max-width: 980px) {
     header nav ul li a {
         font-size: 20px;
@@ -336,6 +321,11 @@ footer {
     .hero img {
         height: 200px;
         margin-left: 0;
+    }
+    .about-me-text {
+        font-size: 28px;
+        text-align: justify;
+        width: 100%;
     }
     .work-items {
         flex-direction: column;
