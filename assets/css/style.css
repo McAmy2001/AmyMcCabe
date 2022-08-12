@@ -159,8 +159,9 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
-.work-items:first-child {
+/*.work-items:first-child {
     width: 100%;
     height: 300px;
 }
@@ -170,16 +171,13 @@ section {
 }
 .work-items .item2 {
     flex-direction: column;
-}
+} */
 .img-box img {
-    height: 250px;
+    height: 200px;
 }
 .img-box2 img {
-    height: 70px;
+    height: 120px;
     width: 95%
-}
-.work-items:not(:first-child) {
-    width: 50%;
 }
 .work-list a {
     text-decoration: none;
@@ -188,11 +186,6 @@ section {
 }
 .work-list a span {
     font-size: 20px;
-}
-.item5 {
-    background-image: url(./images/image-bg.jpg);
-    background-size: cover;
-    background-position: 80%;
 }
 #font-2 {
     font-size: 32px;
@@ -237,12 +230,25 @@ footer {
     background-color: var(--color3);
 }
 /* Media queries */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1150px) {
     header nav ul li a {
         font-size: 20px;
     }
     .contact ul li a {
         font-size: 20px;
+    }
+    .about-me {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .about-me-title h3 {
+        text-align: center;
+    }
+    .about-me-title {
+        border-right: none;
+        border-bottom: 3px solid var(--color4);
+        margin-bottom: 5px;
     }
     .work {
         flex-direction: column;
@@ -260,10 +266,10 @@ footer {
         margin: none;
         width: 100%
     }
-    .work-list {
+    /*.work-list {
         margin: none;
-        width: 80%;
-    }
+        width: 80%; */
+    
     .work-items:not(:first-child) {
         width: 100%;
     }
@@ -284,19 +290,7 @@ footer {
     .work {
         margin-top: 50px;
     }
-    .about-me {
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-    }
-    .about-me-title h3 {
-        text-align: center;
-    }
-    .about-me-title {
-        border-right: none;
-        border-bottom: 3px solid var(--color4);
-        margin-bottom: 5px;
-    }
+    
     
 }
 @media screen and (max-width: 575px) {
@@ -329,10 +323,11 @@ footer {
     }
     .work-items {
         flex-direction: column;
-        height: 300px;
-    }
-    .work-items:first-child {
         height: auto;
+        text-align: center;
+    }
+    .img-box, .img-box2 {
+        max-width: fit-content;
     }
     .contact ul {
         flex-direction: column;
