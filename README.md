@@ -2,7 +2,7 @@
 
 ## The purpose of this project is to build an initial profile webpage with information about me and my work that potential employers can look at to determine fitness for open positions. This profile will be updated throughout the bootcamp with the new work I do. 
 
-### I built my profile page using the HTML and CSS information covered in the first two modules of bootcamp. I also used online resources when I wanted to do something that I didn't know how to do, mainly w3Schools.com. 
+### All code in this project is my own. I built my profile page using the HTML and CSS information covered in the first two modules of bootcamp. I also used online resources when I wanted to do something that I didn't know how to do, mainly w3Schools.com. 
 
 ### After laying out my initial HTML outline, I began the CSS styling by choosing a photo (one that I took on the shores of Lake Superior in northern MN, my home state) for my hero section and then designing a complementary color palette around that photo. 
 
